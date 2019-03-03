@@ -42,40 +42,40 @@ During my self-studying I used different resources. So, I started learn path in:
 [Freecodecamp](https://www.freecodecamp.org/andrei_mak)  
 ### Code example:  
 Partly Implemented *Linked List* (task from [FreeCodecamp](https://learn.freecodecamp.org/coding-interview-prep/data-structures/create-a-linked-list-class/))  
-```javascript
-function LinkedList() {
- var length = 0;
- var head = null;
+```javascript  
+    function LinkedList() {
+     var length = 0;
+     var head = null;
 
- var Node = function(element){
-   this.element = element;
-   this.next = null;
- };
+     var Node = function(element){
+       this.element = element;
+       this.next = null;
+     };
 
- this.head = function(){
-   return head;
- };
+     this.head = function(){
+       return head;
+     };
 
- this.size = function(){
-   return length;
- };
+     this.size = function(){
+       return length;
+     };
 
-this.add = function(element){
-    var node = new Node(element);
-    if(head === null){
-        head = node;
-    } else {
-        var currentNode = head;
+    this.add = function(element){
+        var node = new Node(element);
+        if(head === null){
+            head = node;
+        } else {
+            var currentNode = head;
 
-        while(currentNode.next){
-            currentNode  = currentNode.next;
+            while(currentNode.next){
+                currentNode  = currentNode.next;
+            }
+
+            currentNode.next = node;
         }
 
-        currentNode.next = node;
+        length++;
+      }; 
+    
     }
-
-    length++;
-  }; 
-
-}
 ```
