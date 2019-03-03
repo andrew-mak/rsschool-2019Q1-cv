@@ -1,1 +1,1 @@
-# rsschool-2019Q1-cv
+ https://andrew-mak.github.io/rsschool-2019Q1-cv/cv
