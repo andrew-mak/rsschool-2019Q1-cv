@@ -4,7 +4,7 @@
 ### Contacts
 +375(44)594-15-32  
 <andrews.makarevich@gmail.com>  
-[Linkedin](https://www.linkedin.com/in/andrei-makarevich-a70817162) [Facebook](https://www.facebook.com/andrews.makarevich)
+[Linkedin](https://www.linkedin.com/in/andrei-makarevich-a70817162) | [Facebook](https://www.facebook.com/andrews.makarevich)
 
 ### About me:
 Motivated junior web developer with little experience creating custom web pages. There is a great desire to be involved in any challenging project with the latest technology stack, to gather experience and to work in a strong and friendly team. I am really want to become a web developer and ready to solve possible issues using all my skills and more.
@@ -27,8 +27,8 @@ Motivated junior web developer with little experience creating custom web pages.
 * English language skills at the level A2;
 * no commercial experience in a Frontend development.
 ### Education:
-**Belarusian State University of Informatics and Radioelectronics**
-*Information Technologies and Control*
+**Belarusian State University of Informatics and Radioelectronics**  
+*Information Technologies and Control*  
 2010-2015 
 ___
 **Streamline school**  
@@ -40,7 +40,42 @@ During my self-studying I used different resources. So, I started learn path in:
 [Codecademy](https://www.codecademy.com/Andrei.mak)  
 [Htmlacademy](https://htmlacademy.ru/profile/id887365)  
 [Freecodecamp](https://www.freecodecamp.org/andrei_mak)  
-### Code examples:  
+### Code example:  
 Partly Implemented *Linked List* (task from [FreeCodecamp](https://learn.freecodecamp.org/coding-interview-prep/data-structures/create-a-linked-list-class/))  
+```javascript
+function LinkedList() {
+ var length = 0;
+ var head = null;
 
-### Code example:
+ var Node = function(element){
+   this.element = element;
+   this.next = null;
+ };
+
+ this.head = function(){
+   return head;
+ };
+
+ this.size = function(){
+   return length;
+ };
+
+this.add = function(element){
+    var node = new Node(element);
+    if(head === null){
+        head = node;
+    } else {
+        var currentNode = head;
+
+        while(currentNode.next){
+            currentNode  = currentNode.next;
+        }
+
+        currentNode.next = node;
+    }
+
+    length++;
+  }; 
+
+}
+```
