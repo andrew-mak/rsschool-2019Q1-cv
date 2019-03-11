@@ -2,3 +2,15 @@ body {
     width: 1024px;
     margin: 0 auto;
 }
+
+.myphoto {
+    position: relative;
+    width: 160px;
+    top: -90px;
+    right: 80px;
+    vertical-align: top;
+    float: right;
+}
+.main-contacts a {
+    text-decoration: none;
+}
