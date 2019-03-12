@@ -11,6 +11,35 @@ body {
     vertical-align: top;
     float: right;
 }
-.main-contacts a {
+
+.main-contacts div {
+  margin-bottom: 4px;
+}
+
+.main-contacts  {
+  margin-bottom: 12px;
+}
+
+.contacts a {
     text-decoration: none;
+}
+
+.contacts img {
+  vertical-align: middle;
+  width: 20px;
+  margin-right: 8px;
+  margin-top: -10px;
+}
+
+.social-contacts div{
+  display: inline;
+}
+
+#mail-contact img {
+  width: 22px;
+  margin-top: -5px;
+}
+
+#facebook-contact {
+  margin-left: 30px;
 }
