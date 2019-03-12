@@ -1,45 +1,81 @@
-body {
+body
+{
+    font-family: "Helvetica", "Arial", sans-serif;
+
     width: 1024px;
     margin: 0 auto;
 }
 
-.myphoto {
+.myphoto
+{
     position: relative;
-    width: 160px;
     top: -90px;
     right: 80px;
-    vertical-align: top;
+
     float: right;
+
+    width: 160px;
+
+    vertical-align: top;
 }
 
-.main-contacts div {
-  margin-bottom: 4px;
+.main-contacts div
+{
+    margin-bottom: 4px;
 }
 
-.main-contacts  {
-  margin-bottom: 12px;
+.main-contacts
+{
+    margin-bottom: 12px;
 }
 
-.contacts a {
+.contacts a,
+.study-res-list a
+{
     text-decoration: none;
 }
 
-.contacts img {
-  vertical-align: middle;
-  width: 20px;
-  margin-right: 8px;
-  margin-top: -10px;
+.contacts img
+{
+    width: 20px;
+    margin-top: -10px;
+    margin-right: 8px;
+
+    vertical-align: middle;
 }
 
-.social-contacts div{
-  display: inline;
+.social-contacts div
+{
+    display: inline;
 }
 
-#mail-contact img {
-  width: 22px;
-  margin-top: -5px;
+#mail-contact img
+{
+    width: 22px;
+    margin-top: -5px;
 }
 
-#facebook-contact {
-  margin-left: 30px;
+#facebook-contact
+{
+    margin-left: 30px;
+}
+
+.univer,
+.lang-school
+{
+    margin-left: 26px;
+}
+
+.study-resurs-list
+{
+    margin: 0 0 15px 26px;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+.study-resurs-list li
+{
+    margin-bottom: 5px;
+    padding: 0;
 }
