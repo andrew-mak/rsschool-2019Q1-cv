@@ -1,10 +1,10 @@
 # Andrei Makarevich
-*pre-junior frontend developer*  
+*pre-junior frontend developer* | *trainee frontend developer*  
 ## Resume
 ### Contacts
 +375(44)594-15-32  
 <andrews.makarevich@gmail.com>  
-[Linkedin](https://www.linkedin.com/in/andrei-makarevich-a70817162) | [Facebook](https://www.facebook.com/andrews.makarevich)
+[Linkedin](https://www.linkedin.com/in/andrei-makarevich-a70817162) | [jobs.tut.by](https://jobs.tut.by/applicant/resumes/view?resume=5bb51f1eff016d1f890039ed1f6d506b734a48)
 
 ### About me:
 Motivated junior web developer with little experience creating custom web pages. There is a great desire to be involved in any challenging project with the latest technology stack, to gather experience and to work in a strong and friendly team. I am really want to become a web developer and ready to solve possible issues using all my skills and more.
@@ -22,8 +22,9 @@ Motivated junior web developer with little experience creating custom web pages.
 * explore and incorporate new and emerging development trends.
 
 ### Key skills:
-* basic knowledge HTML, CSS, C#;
+* basic knowledge HTML, CSS;
 * Git VCS;
+* completed Bootstrap course at [codecademy](https://www.codecademy.com/learn/learn-bootstrap);
 * English language skills at the level A2;
 * no commercial experience in a Frontend development.
 ### Education:
@@ -39,43 +40,4 @@ ___
 During my self-studying I used different resources. So, I started learn path in:  
 [Codecademy](https://www.codecademy.com/Andrei.mak)  
 [Htmlacademy](https://htmlacademy.ru/profile/id887365)  
-[Freecodecamp](https://www.freecodecamp.org/andrei_mak)  
-### Code example:  
-Partly Implemented *Linked List* (task from [FreeCodecamp](https://learn.freecodecamp.org/coding-interview-prep/data-structures/create-a-linked-list-class/))  
-```javascript  
-    function LinkedList() {
-     var length = 0;
-     var head = null;
-
-     var Node = function(element){
-       this.element = element;
-       this.next = null;
-     };
-
-     this.head = function(){
-       return head;
-     };
-
-     this.size = function(){
-       return length;
-     };
-
-    this.add = function(element){
-        var node = new Node(element);
-        if(head === null){
-            head = node;
-        } else {
-            var currentNode = head;
-
-            while(currentNode.next){
-                currentNode  = currentNode.next;
-            }
-
-            currentNode.next = node;
-        }
-
-        length++;
-      }; 
-    
-    }
-```
+[Freecodecamp](https://www.freecodecamp.org/andrei_mak)
